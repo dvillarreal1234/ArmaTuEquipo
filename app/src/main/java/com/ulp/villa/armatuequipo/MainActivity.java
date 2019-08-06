@@ -20,6 +20,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -45,6 +47,47 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        Button btnFace = (Button) findViewById(R.id.btnFacebook);
+        Button btnGoogle = (Button) findViewById(R.id.btnGoogle);
+        Button btnAyuda = (Button) findViewById(R.id.btnAyuda);
+        Button btnSobreNos = (Button) findViewById(R.id.btnSobreNosotros);
+        Button btnInvitado = (Button) findViewById(R.id.btnInvitado);
+
+        btnFace.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Login con Face", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        btnGoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Login con Google", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        btnAyuda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Aiuda", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        btnSobreNos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Sobre nosotros", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        btnInvitado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Ingresar como invitado", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

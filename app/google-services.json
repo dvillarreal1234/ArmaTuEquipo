@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "609627934859",
+    "firebase_url": "https://armatuequipo-f7ec8.firebaseio.com",
+    "project_id": "armatuequipo-f7ec8",
+    "storage_bucket": "armatuequipo-f7ec8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609627934859:android:edcf5d8b79c80b5d",
+        "android_client_info": {
+          "package_name": "com.ulp.villa.armatuequipo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609627934859-rfsj4vf0laj9s8b64j4h2bqc7q5kdkpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ulp.villa.armatuequipo",
+            "certificate_hash": "a4a472c82c889c80b262861287208f32f7897e22"
+          }
+        },
+        {
+          "client_id": "609627934859-96176osptrc5u268ig2vqco6kev1drod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcmEU5Pzwzpy74UZALrni-WDPS_Xel_y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609627934859-96176osptrc5u268ig2vqco6kev1drod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
